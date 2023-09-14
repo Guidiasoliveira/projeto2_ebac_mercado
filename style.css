@@ -1,0 +1,218 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    color: #ffffff;
+    line-height: 1.6;
+    background-image: url(https://img.freepik.com/vetores-gratis/conceito-de-mercado-de-acoes-gradiente_23-2149166910.jpg?w=996&t=st=1694719858~exp=1694720458~hmac=11bbdb6f13f4c06b0e6b1818deb46a675dd4a4592daaaf358caf4571f281e1c7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 20px;
+    margin-right: 20px
+
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fffffd;
+}
+
+/* Seção de Notícias */
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Notícias */
+.news {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.news h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.news p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Estilo CSS para as imagens dentro das divs .news-item */
+.news-item img {
+    width: 50%; 
+   height: auto; 
+}
+
+
+/* Botão de leia mais */
+.read-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Estilo para gráficos e números */
+.data {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.positive {
+    color: #00cc00;
+}
+
+.negative {
+    color: #ff0000;
+}
+
+/* Tabela de Dados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Gráfico de Dados */
+.chart-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.analysis-item img{
+    width: 50%; 
+   height: auto; 
+}
+/* Unique styles for the newsletter form */
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.newsletter-form h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.newsletter-form label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6600;
+    color: #fff; /* Corrigido aqui */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #ff8533;
+}
